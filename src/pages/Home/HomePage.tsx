@@ -33,6 +33,7 @@ const HomePage = () => {
 
     {isLoading && (
       <p className="mt-4 text-center text-blue-600 animate-pulse">
+        
         Loading...
       </p>
     )}
