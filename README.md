@@ -6,7 +6,7 @@
 
 A clean, responsive weather app built with **React**, **Tailwind CSS**, **Redux Toolkit**, and the **OpenWeatherMap API**. Users can search any city and view real-time weather details — all with light/dark mode support and smooth UI.
 
-🔗 **Live Demo**: [https://weather-app-blush-ten-89.vercel.app](https://weather-app-blush-ten-89.vercel.app)
+🔗 **Live Demo**: [https://weather-app-blush-ten-89.vercel.app]
 
 ---
 
