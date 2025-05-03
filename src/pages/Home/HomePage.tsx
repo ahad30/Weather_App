@@ -16,6 +16,8 @@ const HomePage = () => {
 
   return (
     <div className="p-6 mb-10 max-w-lg mx-auto mt-10 bg-gradient-to-br from-blue-100 via-white to-blue-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 shadow-2xl rounded-2xl transition-all duration-300">
+
+      {/* Heading Start*/}
       <div className="flex justify-between items-center mb-5">
         <h1 className="text-lg lg:text-2xl font-bold text-center text-blue-700 dark:text-white">
           Weather Finder
@@ -23,14 +25,26 @@ const HomePage = () => {
         <ToggleButton />
       </div>
 
+      {/* Heading End*/}
+
+
+      {/* Searching Start*/}
+      
       <SearchBox />
 
+      {/* Searching End*/}
+
+      {/* Loading Start*/}
       {isLoading && (
         <p className="mt-4 text-center text-blue-600 dark:text-blue-300 animate-pulse">
           Loading...
         </p>
       )}
+      {/* Loading End*/}
 
+
+      {/* Weather Info Start*/}
+    
       {!isLoading && (
         <div className="mt-6 bg-white dark:bg-gray-900 border border-blue-100 dark:border-gray-700 rounded-xl p-6 shadow-inner transition-all duration-300">
           {isError ? (
@@ -86,6 +100,9 @@ const HomePage = () => {
           )}
         </div>
       )}
+
+      {/* Weather Info End*/}
+
     </div>
   );
 };
